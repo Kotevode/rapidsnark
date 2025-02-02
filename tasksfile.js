@@ -49,6 +49,7 @@ function buildProverServer() {
         " ../depends/ffiasm/c/naf.cpp"+
         " ../depends/ffiasm/c/splitparstr.cpp"+
         " ../depends/ffiasm/c/alt_bn128.cpp"+
+        " ../depends/ffiasm/c/binfile_utils.cpp"+
         " ../build/fr.cpp"+
         " ../build/fq.cpp"+
         " ../package/lib/libfq.a"+
