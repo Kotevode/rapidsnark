@@ -49,8 +49,8 @@ function buildProverServer() {
         " ../depends/ffiasm/c/naf.cpp"+
         " ../depends/ffiasm/c/splitparstr.cpp"+
         " ../depends/ffiasm/c/alt_bn128.cpp"+
-        " ../package/lib/libfq.o"+
-        " ../package/lib/libfr.o"+
+        " -L../package/lib/libfq"+
+        " -L../package/lib/libfr.a"+
         " -L../depends/pistache/build/src -lpistache"+
         " -o proverServer"+
         " -fmax-errors=5 -pthread -std=c++17 -fopenmp -lgmp -lsodium -g -DSANITY_CHECK -DUSE_OPENMP -fpermissive", {cwd: "build", nopipe: true}
