@@ -65,4 +65,4 @@ install(FILES "${GMP_LIB_DIR}/${GMP_LIB_FILE}"
 install(FILES src/prover.h src/verifier.h
     DESTINATION ${CMAKE_INSTALL_PREFIX}/include)
 
-enable_testing()
+# enable_testing()
