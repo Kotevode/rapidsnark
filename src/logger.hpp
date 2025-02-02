@@ -152,13 +152,13 @@ namespace CPlusPlusLogging
    };
 
    // Direct Interface for logging into log file or console using MACRO(s)
-   #define LOG_ERROR(x)    Logger::getInstance()->error(x)
-   #define LOG_ALARM(x)	   Logger::getInstance()->alarm(x)
-   #define LOG_ALWAYS(x)	Logger::getInstance()->always(x)
-   #define LOG_INFO(x)     Logger::getInstance()->info(x)
-   #define LOG_BUFFER(x)   Logger::getInstance()->buffer(x)
-   #define LOG_TRACE(x)    Logger::getInstance()->trace(x)
-   #define LOG_DEBUG(x)    Logger::getInstance()->debug(x)
+   #define LOG_ERROR(x)    CPlusPlusLogging::Logger::getInstance()->error(x)
+   #define LOG_ALARM(x)	   CPlusPlusLogging::Logger::getInstance()->alarm(x)
+   #define LOG_ALWAYS(x)	CPlusPlusLogging::Logger::getInstance()->always(x)
+   #define LOG_INFO(x)     CPlusPlusLogging::Logger::getInstance()->info(x)
+   #define LOG_BUFFER(x)   CPlusPlusLogging::Logger::getInstance()->buffer(x)
+   #define LOG_TRACE(x)    CPlusPlusLogging::Logger::getInstance()->trace(x)
+   #define LOG_DEBUG(x)    CPlusPlusLogging::Logger::getInstance()->debug(x)
 
 } // End of namespace
 
