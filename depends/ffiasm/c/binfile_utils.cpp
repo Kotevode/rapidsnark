@@ -8,7 +8,6 @@
 #include <stdexcept>
 
 #include "binfile_utils.hpp"
-#include "thread_utils.hpp"
 #include <omp.h>
 
 namespace BinFileUtils
