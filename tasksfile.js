@@ -49,6 +49,8 @@ function buildProverServer() {
         " ../depends/ffiasm/c/naf.cpp"+
         " ../depends/ffiasm/c/splitparstr.cpp"+
         " ../depends/ffiasm/c/alt_bn128.cpp"+
+        " ../build/fr.cpp"+
+        " ../build/fq.cpp"+
         " -L../package/lib/libfq.a"+
         " -L../package/lib/libfr.a"+
         " -L../depends/pistache/build/src -lpistache"+
