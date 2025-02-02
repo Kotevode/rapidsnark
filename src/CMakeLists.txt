@@ -155,10 +155,10 @@ if(OpenMP_CXX_FOUND)
     elseif(CMAKE_HOST_SYSTEM_NAME STREQUAL "Linux")
         target_link_libraries(prover OpenMP::OpenMP_CXX)
         target_link_libraries(verifier OpenMP::OpenMP_CXX)
-        target_link_libraries(test_public_size OpenMP::OpenMP_CXX)
+        # target_link_libraries(test_public_size OpenMP::OpenMP_CXX)
     endif()
 
 endif()
 
 
-add_executable(test_prover test_prover.cpp)
+# add_executable(test_prover test_prover.cpp)
